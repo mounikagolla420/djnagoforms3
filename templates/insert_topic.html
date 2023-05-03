@@ -1,0 +1,13 @@
+<body>
+    <center>
+        <h1>insert_topic</h1>
+
+    <form method="POST">
+            {% csrf_token %}
+
+              {{form.as_p}}
+
+              <input type="submit" value="insert_topic">
+        </form>
+    </center>
+</body>
